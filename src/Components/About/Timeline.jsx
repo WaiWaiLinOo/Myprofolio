@@ -48,7 +48,7 @@ export const Timeline = () => {
               backgroundColor: `var(--clr-bg)`,
               color: `var(--clr-primary)`,
             }}
-            icon={<WorkIcon />}
+            icon={<SchoolIcon />}
           >
             <h3
               className="vertical-timeline-element-title"
@@ -118,7 +118,7 @@ export const Timeline = () => {
               backgroundColor: `var(--clr-bg)`,
               color: `var(--clr-primary)`,
             }}
-            icon={<SchoolIcon />}
+            icon={<WorkIcon />}
           >
             <h3
               className="vertical-timeline-element-title"
@@ -154,7 +154,7 @@ export const Timeline = () => {
               backgroundColor: `var(--clr-bg)`,
               color: `var(--clr-primary)`,
             }}
-            icon={<WorkIcon />}
+            icon={<SchoolIcon />}
           >
           <p data-aos="fade-right">
             passed JLPT (N4)
