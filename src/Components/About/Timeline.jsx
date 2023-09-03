@@ -32,7 +32,7 @@ export const Timeline = () => {
         </h2>
         <VerticalTimeline lineColor={linecolor}>
           <VerticalTimelineElement
-            date={"Dec 2021 - Feb 2022"}
+            date={"Dec 2012 - Feb 2023"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -54,21 +54,20 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Student Guide Cordinator
+             University Student
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              Masai School
+              Technological University (Kyaukse)
             </h4>
             <p data-aos="fade-right">
-              Managing Team of 15 Student Guides directly and 100-150 students
-              indirectly with help of student guides.
+              Studied Electronic and Information Technology (IT) and got Bachelor of Engineering (BE) from Kyaukse Technological University
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            date={"Nov 2021 - Dec 2021"}
+            date={"Jan 2021 - Dec 2022"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -90,23 +89,20 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Student Guide
+              Laravel Developer
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              Masai School
+              Japan IT Company
             </h4>
             <p data-aos="fade-right">
-              Mentoring and clearing student's doubts via one to one and one to
-              all video calls, Motivating students to do hard work, provides
-              emotional support to them & Helping students to start their career
-              in Tech.
+              Worked as a Developer in Japan IT company.This company teached as a lot of knowledge for me
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            date={"Oct 2021 - Present"}
+            date={"Dec 2022 - Present"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -128,22 +124,21 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Student
+              Senior Developer
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              Masai School (Remote)
+              Kumo Solution (Singapore)
             </h4>
             <p data-aos="fade-right">
-              Joined the Military coding school to learn Full Stack Development
-              and DSA. Also get to learn lot more other skills as well.
+              Worked as a senior node.js, react.js developer with mongodb,mysql,HTML,CSS,JS,Tailwind
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date={"Feb 2020 - Present"}
+            date={"Aug 2023 - Present"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -161,25 +156,11 @@ export const Timeline = () => {
             }}
             icon={<WorkIcon />}
           >
-            <h3
-              className="vertical-timeline-element-title"
-              data-aos="fade-right"
-            >
-              Co-founder
-            </h3>
-            <h4
-              className="vertical-timeline-element-subtitle"
-              data-aos="fade-right"
-            >
-              Agricultural Training institute, Ahmednagar
-            </h4>
-            <p data-aos="fade-right">
-              Started in Feb 2020 with 3 other co-founders and provided training
-              to 20,000+ farmers and 3000+ students till now. Also honored by
-              Agri-Education Award 2021 By Agriculture Today Group.
-            </p>
+          <p data-aos="fade-right">
+            passed JLPT (N4)
+          </p>
           </VerticalTimelineElement>
-          <VerticalTimelineElement
+          {/* <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date={"Dec 2019 - Aug 2021"}
             contentStyle={{
@@ -289,7 +270,7 @@ export const Timeline = () => {
             <p data-aos="fade-right">
               Studied 12th Science and Passed with 85.69 Percentage.
             </p>
-          </VerticalTimelineElement>
+          </VerticalTimelineElement> */}
 
           <VerticalTimelineElement
             icon={<StarRateIcon />}

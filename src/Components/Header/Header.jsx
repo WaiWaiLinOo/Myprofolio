@@ -15,7 +15,6 @@ export const Header = () => {
             <span>
               <img src={Image} alt="logo" />
             </span>
-            hreyas
           </a>
         </h3>
         <Navbar />

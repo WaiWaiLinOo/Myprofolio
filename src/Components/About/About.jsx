@@ -6,6 +6,7 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import EmailIcon from "@material-ui/icons/Email";
 import PhoneIcon from "@material-ui/icons/Phone";
 import TwitterIcon from "@material-ui/icons/Twitter";
+import WhatsAppIcon from '@material-ui/icons/WhatsApp';
 import DescriptionIcon from "@material-ui/icons/Description";
 // import PublicIcon from "@material-ui/icons/Public";
 import { Introduction } from "./Introduction";
@@ -17,18 +18,17 @@ export const About = () => {
     <>
       <div className="about center">
         <h1 data-aos="fade-right" className="mobileHead">
-          Hello, I am <span className="about__name">Shreyas Khakal</span>
+          Hello, I am <span className="about__name">Wai Lin Oo</span>
         </h1>
         <Type />
         <p className="about__desc" data-aos="fade-right">
-          Passionate and creative Full Stack Developer having proficiency in
-          MERN Stack. Attired with a variety of tools & technologies and keen to
-          learn new one. Worked on wordpress since last 3 years and delivered
-          15+ projects till now.
+          Passionate and creative Developer. Attired with a variety of tools & technologies and keen to
+          learn new one. Worked on node.js, react.js, laravel since last 2 years and delivered
+          5+ ( japan, singapore, myanmar) projects till now.
         </p>
         <div className="about__contact center">
           <a
-            href="https://github.com/Shreyasgkhakal100"
+            href="https://github.com/WaiWaiLinOo"
             aria-label="github"
             target="_blank"
             rel="noreferrer"
@@ -37,7 +37,7 @@ export const About = () => {
             <GitHubIcon />
           </a>
           <a
-            href="mailto:shreyasgkhakal100@gmail.com"
+            href="mailto:wailinoo.august@gmail.com"
             target="_blank"
             rel="noreferrer"
             aria-label="mail"
@@ -46,7 +46,7 @@ export const About = () => {
             <EmailIcon />
           </a>
           <a
-            href="tel:+918668613593"
+            href="tel:+9509985151558"
             target="_blank"
             rel="noreferrer"
             aria-label="phone"
@@ -55,7 +55,7 @@ export const About = () => {
             <PhoneIcon />
           </a>
           <a
-            href="https://www.linkedin.com/in/shreyas-g-khakal/"
+            href="https://www.linkedin.com/in/wai-lin-oo-53a87b254/"
             aria-label="linkedin"
             className="link link--icon"
             target="_blank"
@@ -70,7 +70,7 @@ export const About = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <TwitterIcon />
+            <WhatsAppIcon />
           </a>
         </div>
 

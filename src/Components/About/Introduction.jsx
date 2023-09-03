@@ -2,7 +2,7 @@ import React from "react";
 import "./Introduction.css";
 import ExitToAppIcon from "@material-ui/icons/ExitToApp";
 import { ThemeContext } from "../../Context/theme";
-import profilePic from "../../assets/Photo_fw14_056.png";
+import profilePic from "../../assets/photo1.jpeg";
 
 
 export const Introduction = () => {
@@ -22,21 +22,19 @@ export const Introduction = () => {
             <div className="introduction_datacontainer">
               <h4>
                 Hi Everyone, My name is{" "}
-                <span className="different">Shreyas Khakal </span> and I am from{" "}
+                <span className="different">Wai Lin Oo </span> and I am from{" "}
                 <span className="different">
                   {" "}
-                  Ahmednagar, Maharashtra (India)
+                  Mandalay, Myanmar
                 </span>
-                . I have completed my graduation in BTech (Agril. Engineering)
+                . I have completed my graduation ( Bachelor of Engineering - BE)
                 from{" "}
                 <span className="different">
-                  VNMKV Agricultural University, Parbhani (MH)
+                  Technological University (Kyaukse)
                 </span>
-                . Then I joined full stack development course by{" "}
-                <span className="different">Masai School</span> a military type
-                coding school.
+                . Then I work now as a senior node.js, react.js developer {" "}
               </h4>
-              <h4>Terms That can describe me apart form Coding :</h4>
+              {/* <h4>Terms That can describe me apart form Coding :</h4>
               <h4 className="different">
                 <span className="icons">
                   <ExitToAppIcon />
@@ -60,7 +58,7 @@ export const Introduction = () => {
                   <ExitToAppIcon />
                 </span>
                 Poet{" "}
-              </h4>
+              </h4> */}
             </div>
           </div>
         </div>

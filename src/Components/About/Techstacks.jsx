@@ -51,22 +51,22 @@ export const Techstacks = () => {
             <h5>Express</h5>
           </div>
 
-          <div>
+          {/* <div>
             <FaAws />
             <h5>AWS</h5>
-          </div>
+          </div> */}
           <div>
             <BsBootstrap />
             <h5>Bootstrap</h5>
           </div>
-          <div>
+          {/* <div>
             <BsWordpress />
             <h5>Wordpress</h5>
-          </div>
-          <div>
+          </div> */}
+          {/* <div>
             <SiHeroku />
             <h5>Heroku</h5>
-          </div>
+          </div> */}
           <div>
             <VscGithub />
             <h5>Github</h5>
