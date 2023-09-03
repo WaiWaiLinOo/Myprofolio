@@ -13,7 +13,7 @@ export const Header = () => {
         <h3>
           <a href="#home" className="link">
             <span>
-              <img src={Image} alt="logo" />
+              <img src={Image} alt="logo" style={{borderRadius:"25px"}}/>
             </span>
           </a>
         </h3>

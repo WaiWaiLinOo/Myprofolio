@@ -24,9 +24,9 @@ export default function App() {
       <main>
         <About />
         <Github />
-        <section id="#projects">
+        {/* <section id="#projects">
           <Projects />
-        </section>
+        </section> */}
         <section id="#contact">
           <Contact />
         </section>

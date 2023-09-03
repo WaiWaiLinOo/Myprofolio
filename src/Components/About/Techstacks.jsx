@@ -6,7 +6,9 @@ import {
   SiHtml5,
   SiMaterialui,
   SiExpress,
-  SiRedis,
+  SiPhp,
+  SiMysql,
+  SiLaravel,
   SiTailwindcss,
   SiNetlify
 } from "react-icons/si";
@@ -22,6 +24,34 @@ export const Techstacks = () => {
         <h2 className="section__title different">Skills</h2>
         <div className="techsection">
           <div>
+            <FaReact />
+            <h5>React</h5>
+          </div>
+          <div>
+            <FaNodeJs />
+            <h5>Nodejs</h5>
+          </div>
+          <div>
+            <DiMongodb />
+            <h5>MongoDb</h5>
+          </div>
+          <div>
+            <SiMysql />
+            <h5>Mysql</h5>
+          </div>
+          <div>
+            <SiLaravel />
+            <h5>Laravel</h5>
+          </div>
+          <div>
+            <SiPhp />
+            <h5>PHP</h5>
+          </div>
+          <div>
+            <SiExpress />
+            <h5>Express</h5>
+          </div>
+          <div>
             <SiJavascript />
             <h5>Javascript</h5>
           </div>
@@ -34,39 +64,9 @@ export const Techstacks = () => {
             <h5>CSS</h5>
           </div>
           <div>
-            <FaReact />
-            <h5>React</h5>
+            <SiTailwindcss />
+            <h5>Tailwindcss</h5>
           </div>
-          <div>
-            <FaNodeJs />
-            <h5>Nodejs</h5>
-          </div>
-          <div>
-            <DiMongodb />
-            <h5>MongoDb</h5>
-          </div>
-
-          <div>
-            <SiExpress />
-            <h5>Express</h5>
-          </div>
-
-          {/* <div>
-            <FaAws />
-            <h5>AWS</h5>
-          </div> */}
-          <div>
-            <BsBootstrap />
-            <h5>Bootstrap</h5>
-          </div>
-          {/* <div>
-            <BsWordpress />
-            <h5>Wordpress</h5>
-          </div> */}
-          {/* <div>
-            <SiHeroku />
-            <h5>Heroku</h5>
-          </div> */}
           <div>
             <VscGithub />
             <h5>Github</h5>
