@@ -23,7 +23,7 @@ export const About = () => {
         <Type />
         <p className="about__desc" data-aos="fade-right">
           Passionate and creative Developer. Attired with a variety of tools & technologies and keen to
-          learn new one. Worked on node.js, react.js, laravel since last 2 years and delivered
+          learn new one. Worked on node.js, react.js, laravel since last 3 years and delivered
           5+ ( japan, singapore, myanmar) projects till now.
         </p>
         <div className="about__contact center">
@@ -78,7 +78,7 @@ export const About = () => {
           className="btnResume"
           onClick={() => {
             window.open(
-              "https://drive.google.com/file/d/1wOUCf2yzRGMwUS_n0MfstGuFl4iLA8je/view?usp=drive_link"
+              "https://drive.google.com/file/d/13YTXBaIbjbQ8a5mrkMJW9ATX5rrPt0l_/view?usp=drive_link"
             );
           }}
         >
